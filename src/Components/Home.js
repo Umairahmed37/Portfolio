@@ -42,7 +42,7 @@ const Home = () => {
         <div className='container'>
           <div className='d-flex row'>
             <div className='col-sm-6'>
-              <img src={require('./Images/manStanding.png')} />
+              <img alt='man' src={require('./Images/manStanding.png')} />
             </div>
             <div className='col-sm-6 text'>
               <h1>Let me Introduce Myself</h1>
@@ -93,21 +93,21 @@ const Home = () => {
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-md-5'>
-              <h3><span><img src={require('./Icons/Idea.png')} alt="" /></span>Strategy and Direction</h3>
+              <h3><span><img src={require('./Icons/Idea.png')} alt="pic" /></span>Strategy and Direction</h3>
               <p>Understand First, Create strategy, algorithms, layout, for the project. Making direction and implementing these strategies.</p>
             </div>
             <div className='col-md-5'>
-              <h3><span><img src={require('./Icons/react.png')} alt="" /></span>MERN Stack Development</h3>
+              <h3><span><img src={require('./Icons/react.png')} alt="pic" /></span>MERN Stack Development</h3>
               <p>Built Professional MERN Stack Applications including Blog websites, Ultility websites,CMS System, E-commerce websites using Redux, advance user authentication (jwt-token), protected routing etc.  </p>
             </div>
 
              <br />
             <div className='col-md-5'>
-              <h3><span><img src={require('./Icons/design.png')} alt="" /></span>UI/UX Design </h3>
+              <h3><span><img src={require('./Icons/design.png')} alt="picture" /></span>UI/UX Design </h3>
               <p>Created professional website layout using Figma or Adobe XD. Advance user interface/ user experience with animations. Using technologies i.e Material UI, Boostrap, Fontawsome.</p>
             </div>
             <div className='col-md-5'>
-              <h3><span><img src={require('./Icons/php.png')} alt="" /></span>Php sQl Development</h3>
+              <h3><span><img src={require('./Icons/php.png')} alt="picture" /></span>Php sQl Development</h3>
               <p>Built projects using Php as server side language with mysQl database. Websites include blog website, CMS Admin panel, e-commerce website.</p>
             </div>
           </div>
