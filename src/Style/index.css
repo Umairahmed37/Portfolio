@@ -1,0 +1,186 @@
+body {
+  margin: 0px 0px;
+ }
+.contactbutton{
+  background: #120E48;
+  border-radius: 7px;
+}
+nav .offcanvas-body ul li{
+  margin: 0px 10px;
+}
+nav .offcanvas-body i{
+  font-size:20px;
+  margin-top: 8px;
+}
+
+#scrolling{
+  background-color:white !important;
+  box-shadow: 0px -1px 6px 4px rgba(0,0,0,0.23);
+  transition-duration: .3s;
+}
+#notscrolling{
+  background-color:transparent !important;
+  transition-duration: .3s;
+}
+
+/*----------------------frontpage------------------------------*/
+
+#frontpage{
+  background-image: url('../Components/Images/front.svg');
+  background-repeat: none;
+  background-size: cover;
+  /* height: 100vh; */
+}
+.stack{
+  margin-top: 25vh;
+}
+.profile{
+  margin-top: 10vh;
+}
+.home h1{
+  font-size: 3.2em;
+}
+.home .frontbuttons div{
+  margin: 10px 10px;
+}
+#parenthire{
+  background: linear-gradient(90deg, #120E48 0%, #7B0068 100%);
+  box-shadow: -3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  padding: 3px 3px ;
+ }
+
+ #parenthire a{
+   text-decoration: none ;
+ }
+
+#hireme{
+  color: black;
+  border-radius: 7px;
+  background:white;
+  text-align: center;
+  margin: 2px 2px;
+  padding: 10px 10px ;
+  position: relative;
+  }
+ #hireme:after{
+  color: white;
+  display: flex;
+  justify-content: center;
+  content: "Hire Me";
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  letter-spacing:15px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 0px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  transition-duration: .3s;
+  opacity: 0;
+  background: linear-gradient(90deg, #120E48 0%, #7B0068 100%); 
+ }
+
+#hireme:hover:after{
+  color: white !important;
+  opacity: 1;
+  letter-spacing:0px;
+}
+  
+#frontdownload{
+  background: linear-gradient(90deg, #120E48 0%, #7B0068 100%); 
+  border-radius: 7px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  transition-duration: .3s;
+  padding: 15px 16px ;
+  border: none !important;
+  
+  
+}
+#frontdownload:hover{
+  transition-duration: .25s;
+    transform: scale(1.08);
+ }
+.stack span{
+  color:#7B0068;
+
+}
+
+
+.contactbutton{
+  overflow: hidden;
+}
+.contactbutton i{
+  animation-duration:2s;
+}
+.contactbutton:hover i{
+  animation-name: fly;
+}
+ 
+@keyframes fly{
+  0%{transform:    rotate(0deg)}
+  30%{transform:   rotate(40deg)}
+  50%{transform:   translateX(140px)      rotate(40deg)}
+  55%{transform:   translate(150px,150px) rotate(40deg)}
+  60%{transform:   translate(-150px,150px)   rotate(0deg)}
+  100%{transform:  translate(0px,0px)   rotate(0deg)}
+}
+
+.stack span{
+  position: relative;
+  display: inline-block;
+
+}
+.stack span:after{
+  bottom: 0;
+  left: 0;
+  content: '';
+  background-color: #7B0068;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.stack span:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav ul li a{
+  color: black !important;
+  position: relative;
+  display: inline-block;
+}
+
+nav ul li a:after{
+  bottom: 0;
+  left: 0;
+  content: '';
+  background-color: #7B0068;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  
+  transform: scaleX(0);
+  transform-origin: bottom ;
+  transition: transform 0.2s ease-out;
+}
+nav ul li a:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom ;
+}
+
+  
+ 
+
+ 
+

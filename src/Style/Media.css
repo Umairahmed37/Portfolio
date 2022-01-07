@@ -1,0 +1,40 @@
+
+@media screen and (max-width: 768px) {
+  nav .offcanvas-body ul li{
+    margin: 0px 10px;
+  }
+  nav .offcanvas-body {
+    flex-direction: column;
+  }
+  nav .offcanvas-body ul{
+    justify-content: start !important;
+  }
+  nav .offcanvas-body ul li{
+    text-align: center;
+  }
+  .home img{
+    width: 80%;
+    height: auto;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .home img{
+    width: 160%;
+   }
+   #frontdownload {
+     width: 45% ;
+   }
+   #parenthire {
+    width: 45% ;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .home img{
+    width: 180%;
+   }
+}
+
+
+
