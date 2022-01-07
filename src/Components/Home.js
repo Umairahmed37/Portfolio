@@ -80,8 +80,7 @@ const Home = () => {
               <i class="fas fa-grin-hearts"></i>
               <h1 className='counter'>40</h1>
               <h5>Happy Clients</h5>
-              <h2 className='increase'></h2>
-            </div>
+             </div>
           </div>
         </div>
       </div>
@@ -103,11 +102,11 @@ const Home = () => {
 
              <br />
             <div className='col-md-5'>
-              <h3><span><img src={require('./Icons/design.png')} alt="picture" /></span>UI/UX Design </h3>
+              <h3><span><img src={require('./Icons/design.png')} alt="pict" /></span>UI/UX Design </h3>
               <p>Created professional website layout using Figma or Adobe XD. Advance user interface/ user experience with animations. Using technologies i.e Material UI, Boostrap, Fontawsome.</p>
             </div>
             <div className='col-md-5'>
-              <h3><span><img src={require('./Icons/php.png')} alt="picture" /></span>Php sQl Development</h3>
+              <h3><span><img src={require('./Icons/php.png')} alt="pict" /></span>Php sQl Development</h3>
               <p>Built projects using Php as server side language with mysQl database. Websites include blog website, CMS Admin panel, e-commerce website.</p>
             </div>
           </div>
