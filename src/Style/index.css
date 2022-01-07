@@ -5,13 +5,25 @@ body {
   background: #120E48;
   border-radius: 7px;
 }
-nav .offcanvas-body ul li{
-  margin: 0px 10px;
+ 
+nav .offcanvas-body .icons ul {
+  list-style-type: none;
+  display: flex;
+   font-size: 20px;
+   margin: 0%;
+   position: relative;
+   padding: 0%;
+   transition-duration: .3s;
 }
-nav .offcanvas-body i{
-  font-size:20px;
-  margin-top: 8px;
-}
+ 
+nav .offcanvas-body .icons ul li:hover{
+   color: #7B0068;
+   cursor: pointer;
+
+ }
+  
+ 
+ 
 
 #scrolling{
   background-color:white !important;
@@ -29,8 +41,7 @@ nav .offcanvas-body i{
   background-image: url('../Components/Images/front.svg');
   background-repeat: none;
   background-size: cover;
-  /* height: 100vh; */
-}
+ }
 .stack{
   margin-top: 25vh;
 }
@@ -135,6 +146,7 @@ nav .offcanvas-body i{
 .stack span{
   position: relative;
   display: inline-block;
+  font-weight: 700;
 
 }
 .stack span:after{
@@ -158,6 +170,7 @@ nav .offcanvas-body i{
 nav ul li a{
   color: black !important;
   position: relative;
+  margin: 0px 8px;
   display: inline-block;
 }
 
@@ -179,8 +192,68 @@ nav ul li a:hover:after{
   transform-origin: bottom ;
 }
 
-  
- 
+.introduce{
+   background-image: url('../Components/Images/second\ section.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.introduce .d-flex{
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+}
+.introduce .d-flex .text{
+  padding-top: 100px;
+}
  
+.projectscompleted{
+  background-image: url('../Components/Images/projects.svg');
+  background-size: cover;
+  height: 460px !important;
+  background-repeat: no-repeat;
+}
+.projectscompleted .row .col-md {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  padding-bottom: 80px;
+}
+.projectscompleted .row i {
+  margin-bottom: 20px;
+   font-size: 100px;
+}
+
+/*-----------------------------------------------------------------------------*/
+.Expertise{
+  height: 500px;
+  padding-top: 100px;
+}
+
+.Expertise .col-md-5{
+  text-align: left;
+  margin-top: 50px;
+  padding-left: 50px;
+}
+.Expertise span img{
+  height: 50px;
+  width: 50px;
+}
+
+.Expertise h3{
+display: flex;  
+align-items: center;
+}
+/*----------------------------------------------------------------------------------*/
+
+.testimonials{
+  height: 500px;
+  background-image: url('../Components/Images/Vector\ 5.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+.testtext{
+  padding-top: 300px;
+  color: white;
+}
 

@@ -29,11 +29,19 @@
    #parenthire {
     width: 45% ;
   }
+  #frontpage{
+     
+    height: 100%;
+  }
 }
 @media screen and (min-width: 1200px) {
   .home img{
     width: 180%;
    }
+   #frontpage{
+     
+    height: 100vh;
+  }
 }
 
 

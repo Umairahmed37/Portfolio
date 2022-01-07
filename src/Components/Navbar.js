@@ -26,7 +26,7 @@ const Navbar = () => {
           <Link to="/" className="navbar-brand"> <Button className="contactbutton mt-2">
             <i class="fas fa-paper-plane mx-2"></i>
             Contact Me
-            </Button>
+          </Button>
           </Link>
 
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -59,10 +59,18 @@ const Navbar = () => {
                 </li>
 
               </ul>
-              <div className="justify-content-end align-self-center ">
-                <i className="mx-3 fa-brands fa-instagram"></i>
-                <i className="mx-3 fa-brands fa-twitter"></i>
-                <i className="mx-3 fa-brands fa-facebook"></i>
+              <div className="justify-content-end align-self-center icons">
+                <ul>
+                  <li>
+                    <i className="mx-3 fa-brands fa-instagram"></i>
+                  </li>
+                  <li>
+                    <i className="mx-3 fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <i className="mx-3 fa-brands fa-facebook"></i>
+                  </li>
+                </ul>
               </div>
             </div>
 
