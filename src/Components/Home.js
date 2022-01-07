@@ -1,14 +1,14 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
+// import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import Navbar from './Navbar'
+// import Navbar from './Navbar'
 
 
 const Home = () => {
   return (
     <div >
-      <div id="frontpage" className="pt-5 home  justify-content-evenly">
-        <div className="row container">
+      <div id="frontpage" className="pt-5 home ">
+        <div className="row container justify-content-center">
 
           <div className="col-md-7 stack">
             <h1>
@@ -33,7 +33,7 @@ const Home = () => {
 
           </div>
           <div className="col-md-3 profile">
-            <img className="" src={require("../Components/Images/profile2.png")} alt="portfolio image" />
+            <img className="" src={require("../Components/Images/profile2.png")} alt="portfolio " />
           </div>
         </div>
       </div>
