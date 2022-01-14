@@ -21,9 +21,76 @@ nav .offcanvas-body .icons ul li:hover{
    cursor: pointer;
 
  }
-  
+
  
+@keyframes animatedots1 {
+  0%{transform:translateX(0)  ;}
+  100%{transform:translateX(-100vw)  ;}
+
+}
+@keyframes animatedots2 {
+  0%{transform:translateX(0);}
+  100%{transform:translateX(+100vw);}
+}
  
+.backgroundanimations{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.backgroundanimations .backcircle{
+  position: absolute;
+  top: 10vh;
+  z-index: -1;
+  left: 100%;
+  animation: animatedots1 40s linear infinite
+ }
+
+ .backgroundanimations :nth-child(2){
+  position: absolute;
+  top: 40vh;
+  z-index: -1;
+  right: 0;
+  left: 100%;
+   animation: animatedots1 80s linear 32s infinite
+}
+.backgroundanimations :nth-child(3){
+  position: absolute;
+  top: 20vh;
+  z-index: -1;
+  right: 0;
+  left: 100%;
+  animation: animatedots1 75s ease 12s infinite
+}
+.backgroundanimations :nth-child(4){
+  position: absolute;
+  top: 60vh;
+  z-index: -1;
+  right: 100%;
+  animation: animatedots2 50s linear 0s infinite
+}
+.backgroundanimations :nth-child(5){
+  position: absolute;
+  top: 90vh;
+  z-index: -1;
+  right: 100%;
+    animation: animatedots2 50s linear 20s infinite
+}
+.backgroundanimations :nth-child(6){
+  position: absolute;
+  top: 40vh;
+  z-index: -1;
+  left: 100%;
+  animation: animatedots2 80s linear 45s infinite
+}
+.backgroundanimations :nth-child(7){
+  position: absolute;
+  top: 55vh;
+  z-index: -1;
+  right: 100%;
+  animation: animatedots2 30s linear 0s infinite
+}
 
 #scrolling{
   background-color:white !important;
@@ -38,6 +105,7 @@ nav .offcanvas-body .icons ul li:hover{
 /*----------------------frontpage------------------------------*/
 
 #frontpage{
+  z-index: 2;
   background-image: url('../Components/Images/front.svg');
   background-repeat: none;
   background-size: cover;
@@ -48,6 +116,7 @@ nav .offcanvas-body .icons ul li:hover{
 .profile{
   margin-top: 10vh;
 }
+ 
 .home h1{
   font-size: 3.2em;
 }
@@ -111,12 +180,12 @@ nav .offcanvas-body .icons ul li:hover{
   transition-duration: .3s;
   padding: 15px 16px ;
   border: none !important;
-  
+  z-index: 3;
   
 }
 #frontdownload:hover{
   transition-duration: .25s;
-    transform: scale(1.08);
+  transform: scale(1.08);
  }
 .stack span{
   color:#7B0068;
@@ -127,11 +196,18 @@ nav .offcanvas-body .icons ul li:hover{
 .contactbutton{
   overflow: hidden;
 }
+.contactbutton:hover{
+  background-color: #576574 ;
+  transition-duration: 0.000001s;
+
+
+}
 .contactbutton i{
-  animation-duration:2s;
+   animation-duration:2s;
 }
 .contactbutton:hover i{
   animation-name: fly;
+  background-color: #576574 ;
 }
  
 @keyframes fly{
@@ -205,11 +281,14 @@ nav ul li a:hover:after{
 .introduce .d-flex .text{
   padding-top: 100px;
 }
+.introdownload{
+  padding: 15px 15px !important;
+}
  
 .projectscompleted{
   background-image: url('../Components/Images/projects.svg');
   background-size: cover;
-  height: 460px !important;
+  height: 460px;
   background-repeat: no-repeat;
 }
 .projectscompleted .row .col-md {
@@ -246,10 +325,12 @@ align-items: center;
 /*----------------------------------------------------------------------------------*/
 
 .testimonials{
-  height: 500px;
+  height: 120vh;
   background-image: url('../Components/Images/Vector\ 5.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
  
 .testtext{
@@ -257,3 +338,7 @@ align-items: center;
   color: white;
 }
 
+.mycarousel img{
+   height: 150px;
+   width: 150px;
+}

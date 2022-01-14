@@ -24,7 +24,7 @@ const Navbar = () => {
       <nav id={shownav ? 'scrolling' : 'notscrolling'} className="navbar navbar-light navbar-expand-md fixed-top">
         <div className="container">
           <Link to="/" className="navbar-brand"> <Button className="contactbutton mt-2">
-            <i class="fas fa-paper-plane mx-2"></i>
+            <i className="fas fa-paper-plane mx-2"></i>
             Contact Me
           </Button>
           </Link>

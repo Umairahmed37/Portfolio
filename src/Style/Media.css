@@ -16,6 +16,28 @@
     width: 80%;
     height: auto;
   }
+  .Expertise{
+    height: 150vh;
+  }
+  .projectscompleted{
+     height: 270vh;
+    background-image: none;
+    background-color: #8F2780;
+  }
+  .projectscompleted .row .col-md{
+     
+  margin-top: 15px;
+  padding-bottom: 30px;
+ }
+
+ .projectscompleted .row .col-md :first-child{
+  padding-top: 40px;
+ }
+
+ .projectscompleted .row i {
+  margin-bottom: 10px;
+   font-size: 60px;
+}
 }
 
 
@@ -32,6 +54,9 @@
   #frontpage{
      
     height: 100%;
+  }
+  .Expertise{
+    height: 110vh;
   }
 }
 @media screen and (min-width: 1200px) {
