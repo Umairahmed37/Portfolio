@@ -6,6 +6,7 @@
   nav .offcanvas-body {
     flex-direction: column;
   }
+   
   nav .offcanvas-body ul{
     justify-content: start !important;
   }
@@ -13,14 +14,15 @@
     text-align: center;
   }
   .home img{
-    width: 80%;
+    width: 50%;
     height: auto;
   }
   .Expertise{
     height: 150vh;
   }
   .projectscompleted{
-     height: 270vh;
+     height: auto;
+     padding: 40px 0px;
     background-image: none;
     background-color: #8F2780;
   }
@@ -38,12 +40,66 @@
   margin-bottom: 10px;
    font-size: 60px;
 }
+.introduce .purpleimage{
+  display: none;
+}
+.introduce{
+  background-color: #F7F3FF;
+  margin-top: -50px;
+  background-image: none;
+}
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+#frontpage{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.introduce .text{
+   padding-top: 20px !important;
+   padding-bottom: 50px !important;
+
+}
+.introduce{
+  margin-top: 20px;
+  text-align: center;
+}
+.home {
+  height: auto !important;
+
+}
+.testimonials{
+  background-image: none;
+  background-color: black;
+  height: auto;
+}
+.testtext{
+  padding-top: 89px;
+}
+.Expertise{
+  height: auto !important;
+  padding-bottom: 57px;
+
+}
+#frontpage{
+  background-image: none;
+}
+.footer_icons a{
+  margin: 0px 0px 0px 0px !important;
+}
+.footer_icons a{
+  padding-left: 20px;
+}
+ 
+
+
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .home img{
-    width: 160%;
+    width: 200%;
    }
    #frontdownload {
      width: 45% ;
@@ -66,6 +122,9 @@
    #frontpage{
      
     height: 100vh;
+  }
+  #frontdownload {
+    width: 35% ;
   }
 }
 
