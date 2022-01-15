@@ -260,7 +260,7 @@ const Home = () => {
                     <textarea name="" id="" cols="0" rows="7" className='contact_input'></textarea>
                   </div>
                   <div>
-                    <a href="#" className="button button--flex shadow">Send Message <i class="uil uil-message button_icon"></i> </a>
+                    <a href="/#" className="button button--flex shadow">Send Message <i class="uil uil-message button_icon"></i> </a>
                   </div>
                 </div>
               </form>
@@ -278,19 +278,19 @@ const Home = () => {
             </div>
 
             <div className='footer_icons'>
-              <a href="" class="me-4 text-reset">
+              <a href="/#" class="me-4 text-reset">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="" class="me-4 text-reset">
+              <a href="/#" class="me-4 text-reset">
                 <i class="fab fa-whatsapp"></i>
               </a>
-              <a href="" class="me-4 text-reset">
+              <a href="/#" class="me-4 text-reset">
                 <i class="fab fa-google"></i>
               </a>
-              <a href="" class="me-4 text-reset">
+              <a href="/#" class="me-4 text-reset">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="" class="me-4 text-reset">
+              <a href="/#" class="me-4 text-reset">
                 <i class="fab fa-linkedin"></i>
               </a>
 
@@ -352,7 +352,7 @@ const Home = () => {
 
           <div class="text-center p-4" >
             © 2022 Copyright:
-            <a class="text-reset fw-bold">All Rights Reserved </a>
+            <a href='/#' class="text-reset fw-bold">All Rights Reserved </a>
           </div>
         </footer>
       </div>
