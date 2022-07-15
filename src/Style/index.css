@@ -7,6 +7,7 @@
   /* HSL color mode */
   --first-color: hsl(var(--hue-color),69%,61%);
   --first-color-second: hsl(var(--hue-color),69%,61%);
+  --purple:#7B0068;
   --first-color-alt: hsl(var(--hue-color),57%,53%);
   --first-color-lighter: hsl(var(--hue-color),92%,85%);
   --title-color: hsl(var(--hue-color),8%,15%);
@@ -125,7 +126,7 @@ html{
 }
 /*------------------------------------------*/
 body {
-  background-color: var(--body-color);
+   background-color: white;
   margin: 0px 0px;
   box-sizing: border-box;
  }
